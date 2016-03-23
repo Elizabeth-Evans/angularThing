@@ -10,7 +10,7 @@ angular
 
 
     $scope.getQuoteCtrl = function(quote) {
-      console.log('HEy!', quote);
+      console.log('Hey! Hey! Hey!', quote);
       NewQuoteService.getQuote(quote)
         .then(function(data) {
           console.log(data);
