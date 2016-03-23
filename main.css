@@ -25,7 +25,7 @@ body{
 
 
 .quoteArea{
-  width:30%;
+  width:25%;
   text-align: center;
   margin-top: -150px;
   margin-left: 65%;
@@ -35,7 +35,7 @@ body{
 
 /*----------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------
-neat speach bubble from "http://nicolasgallagher.com/pure-css-speech-bubbles/demo/"*/
+slightly adjusted speach bubble from "http://nicolasgallagher.com/pure-css-speech-bubbles/demo/"*/
 
 
 /* THE SPEECH BUBBLE
@@ -52,7 +52,7 @@ neat speach bubble from "http://nicolasgallagher.com/pure-css-speech-bubbles/dem
   /* css3 */
   -webkit-border-radius:10px;
   -moz-border-radius:10px;
-  border-radius:10px;
+  border-radius:80px;
 }
 
 /* Variant : for left positioned triangle
@@ -75,91 +75,13 @@ neat speach bubble from "http://nicolasgallagher.com/pure-css-speech-bubbles/dem
 .triangle-border:before {
   content:"";
   position:absolute;
-  bottom:-20px; /* value = - border-top-width - border-bottom-width */
-  left:40px; /* controls horizontal position */
-  border-width:20px 20px 0;
+  bottom:-30px; /* value = - border-top-width - border-bottom-width */
+  left:50px; /* controls horizontal position */
+  border-width:30px 20px 0;
   border-style:solid;
   border-color:#fff transparent;
   /* reduce the damage in FF3.0 */
   display:block;
   width:0;
-}
-
-/* creates the smaller  triangle */
-.triangle-border:after {
-  content:"";
-  position:absolute;
-  bottom:-13px; /* value = - border-top-width - border-bottom-width */
-  left:47px; /* value = (:before left) + (:before border-left) - (:after border-left) */
-  border-width:13px 13px 0;
-  border-style:solid;
-  border-color:#fff transparent;
-  /* reduce the damage in FF3.0 */
-  display:block;
-  width:0;
-}
-
-/* Variant : top
------------------------------------------- */
-
-/* creates the larger triangle */
-.triangle-border.top:before {
-  top:-20px; /* value = - border-top-width - border-bottom-width */
-  bottom:auto;
-  left:auto;
-  right:40px; /* controls horizontal position */
-  border-width:0 20px 20px;
-}
-
-/* creates the smaller  triangle */
-.triangle-border.top:after {
-  top:-13px; /* value = - border-top-width - border-bottom-width */
-  bottom:auto;
-  left:auto;
-  right:47px; /* value = (:before right) + (:before border-right) - (:after border-right) */
-  border-width:0 13px 13px;
-}
-
-/* Variant : left
------------------------------------------- */
-
-/* creates the larger triangle */
-.triangle-border.left:before {
-  top:10px; /* controls vertical position */
-  bottom:auto;
-  left:-30px; /* value = - border-left-width - border-right-width */
-  border-width:15px 30px 15px 0;
-  border-color:transparent #fff;
-}
-
-/* creates the smaller  triangle */
-.triangle-border.left:after {
-  top:16px; /* value = (:before top) + (:before border-top) - (:after border-top) */
-  bottom:auto;
-  left:-21px; /* value = - border-left-width - border-right-width */
-  border-width:9px 21px 9px 0;
-  border-color:transparent #fff;
-}
-
-/* Variant : right
------------------------------------------- */
-
-/* creates the larger triangle */
-.triangle-border.right:before {
-  top:10px; /* controls vertical position */
-  bottom:auto;
-  left:auto;
-  right:-30px; /* value = - border-left-width - border-right-width */
-  border-width:15px 0 15px 30px;
-  border-color:transparent #fff;
-}
-
-/* creates the smaller  triangle */
-.triangle-border.right:after {
-  top:16px; /* value = (:before top) + (:before border-top) - (:after border-top) */
-  bottom:auto;
-  left:auto;
-  right:-21px; /* value = - border-left-width - border-right-width */
-  border-width:9px 0 9px 21px;
-  border-color:transparent #fff;
+  transform: rotate(12deg);
 }
