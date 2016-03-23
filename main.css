@@ -5,7 +5,6 @@
 
 .jumbotron{
   margin-top: 2%;
-  margin-left: -5%;
   width:30%;
   text-align: center;
   background-color:rgba(255,255,255,0.7);
@@ -21,7 +20,7 @@ img{
 }
 body{
   background-image: url("http://cdn.playbuzz.com/cdn/173e8dc2-5516-41c1-8e34-43bf6f03b6d8/3b0aa0d7-527b-4983-8000-a3c91eb7dded.jpg");
-  background-position-x: -75px;
+  background-position-x: -25px;
 }
 
 
