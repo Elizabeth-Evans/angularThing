@@ -1,5 +1,5 @@
 angular
-  .module('wangular',['ngRoute'])
+  .module('randomRon',['ngRoute'])
   .config(function($routeProvider) {
     $routeProvider
       .when('/', {

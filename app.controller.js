@@ -1,5 +1,5 @@
 angular
-  .module('wangular')
+  .module('randomRon')
   .controller('HomeController', function($scope) {
 
   })

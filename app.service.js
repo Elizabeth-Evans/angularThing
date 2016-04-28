@@ -1,5 +1,5 @@
 angular
-  .module('wangular')
+  .module('randomRon')
   .service('NewQuoteService', function($http) {
 
     function getQuote(quote) {
