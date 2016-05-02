@@ -134,11 +134,10 @@ slightly adjusted speach bubble from "http://nicolasgallagher.com/pure-css-speec
     text-align: center;
   }
 }
-@media (min-width: 0px) and (max-width: 856px)  {
+@media (min-width: 685px) and (max-width: 856px)  {
   body{
     background-image: url("http://cdn.playbuzz.com/cdn/173e8dc2-5516-41c1-8e34-43bf6f03b6d8/3b0aa0d7-527b-4983-8000-a3c91eb7dded.jpg");
-    background-position-x: -103px;
-    background-position-y:40px;
+    background-position-x: -259px;
     background-repeat: no-repeat;
   }
 
@@ -153,5 +152,28 @@ slightly adjusted speach bubble from "http://nicolasgallagher.com/pure-css-speec
   }
   h1{
     text-align: center;
+  }
+}
+@media (min-width: 0px) and (max-width: 685px)  {
+  body{
+    background-image: url("http://cdn.playbuzz.com/cdn/173e8dc2-5516-41c1-8e34-43bf6f03b6d8/3b0aa0d7-527b-4983-8000-a3c91eb7dded.jpg");
+    background-position-x: -259px;
+    background-repeat: no-repeat;
+  }
+
+  .quoteArea{
+    width:25%;
+    text-align: center;
+    margin-top: -120px;
+    margin-left: 85%;
+  }
+  .btn-lg, .btn-group-lg > .btn{
+  font-size: 13px;
+  }
+  h1{
+    text-align: center;
+  }
+  .jumbotron{
+    display: none;
   }
 }
