@@ -111,7 +111,7 @@ slightly adjusted speach bubble from "http://nicolasgallagher.com/pure-css-speec
 @media (min-width: 0px) and (max-width: 990px)  {
   body{
     background-image: url("http://cdn.playbuzz.com/cdn/173e8dc2-5516-41c1-8e34-43bf6f03b6d8/3b0aa0d7-527b-4983-8000-a3c91eb7dded.jpg");
-    background-position-x: -93px;
+    background-position-x: -103px;
     background-repeat: no-repeat;
   }
 
@@ -119,7 +119,7 @@ slightly adjusted speach bubble from "http://nicolasgallagher.com/pure-css-speec
     width:25%;
     text-align: center;
     margin-top: -160px;
-    margin-left: 80%;
+    margin-left: 85%;
   }
   .quoteButton{
     width:40px;
