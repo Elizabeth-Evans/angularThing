@@ -147,13 +147,13 @@ slightly adjusted speach bubble from "http://nicolasgallagher.com/pure-css-speec
     padding-left: 0%;
     margin-left: 0;
     text-align: center;
-    background-color:rgba(255,255,255,1);
+    background-color:lightgrey;
 
   }
   .quoteArea{
     width:25%;
     text-align: center;
-    margin-top: -160px;
+    margin-top: -120px;
     margin-left: 85%;
   }
   .btn-lg, .btn-group-lg > .btn{
