@@ -165,7 +165,7 @@ slightly adjusted speach bubble from "http://nicolasgallagher.com/pure-css-speec
   .quoteArea{
     width:25%;
     text-align: center;
-    margin-top: -80px;
+    margin-top: -20px;
     margin-left: 85%;
   }
   .btn-lg, .btn-group-lg > .btn{
