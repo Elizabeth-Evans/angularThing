@@ -133,9 +133,9 @@ slightly adjusted speach bubble from "http://nicolasgallagher.com/pure-css-speec
   h1{
     text-align: center;
   }
-  .jumbotron{
+  /*.jumbotron{
     display: none;
-  }
+  }*/
 }
 @media (min-width: 685px) and (max-width: 856px)  {
   body{
@@ -156,9 +156,9 @@ slightly adjusted speach bubble from "http://nicolasgallagher.com/pure-css-speec
   h1{
     text-align: center;
   }
-  .jumbotron{
+  /*.jumbotron{
     display: none;
-  }
+  }*/
 }
 @media (min-width: 0px) and (max-width: 685px)  {
   body{
@@ -180,7 +180,7 @@ slightly adjusted speach bubble from "http://nicolasgallagher.com/pure-css-speec
   h1{
     text-align: center;
   }
-  .jumbotron{
+  /*.jumbotron{
     display: none;
-  }
+  }*/
 }
