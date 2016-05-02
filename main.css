@@ -92,6 +92,9 @@ slightly adjusted speach bubble from "http://nicolasgallagher.com/pure-css-speec
     margin-top: -160px;
     margin-left: 75%;
   }
+  h1{
+    text-align: center;
+  }
 }
 @media (min-width: 990px) and (max-width: 1072px)  {
   body{
@@ -105,6 +108,9 @@ slightly adjusted speach bubble from "http://nicolasgallagher.com/pure-css-speec
     text-align: center;
     margin-top: -160px;
     margin-left: 80%;
+  }
+  h1{
+    text-align: center;
   }
 }
 
@@ -121,7 +127,10 @@ slightly adjusted speach bubble from "http://nicolasgallagher.com/pure-css-speec
     margin-top: -160px;
     margin-left: 85%;
   }
-  .quoteButton{
-    width:40px;
+  .btn-lg, .btn-group-lg > .btn{
+  font-size: 13px;
+  }
+  h1{
+    text-align: center;
   }
 }
