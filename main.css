@@ -141,15 +141,7 @@ slightly adjusted speach bubble from "http://nicolasgallagher.com/pure-css-speec
     background-position-y:40px;
     background-repeat: no-repeat;
   }
-  .jumbotron{
-    width:100%;
-    margin-top: 0%;
-    padding-left: 0%;
-    margin-left: 0;
-    text-align: center;
-    background-color:lightgrey;
 
-  }
   .quoteArea{
     width:25%;
     text-align: center;
