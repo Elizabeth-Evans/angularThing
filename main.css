@@ -1,4 +1,5 @@
-
+*:focus {outline:none !important;
+}
 .jumbotron h1{
   font-size: 4rem;
 }
