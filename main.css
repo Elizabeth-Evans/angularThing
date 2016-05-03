@@ -91,8 +91,8 @@ slightly adjusted speach bubble from "http://nicolasgallagher.com/pure-css-speec
   .quoteArea{
     width:25%;
     text-align: center;
-    /*margin-top: -160px;
-    margin-left: 75%;*/
+    /*margin-top: -160px;*/
+    margin-left: 75%;
   }
   h1{
     text-align: center;
@@ -108,8 +108,8 @@ slightly adjusted speach bubble from "http://nicolasgallagher.com/pure-css-speec
   .quoteArea{
     width:25%;
     text-align: center;
-    margin-top: -160px;
-    /*margin-left: 80%;*/
+    /*margin-top: -160px;*/
+    margin-left: 80%;
   }
   h1{
     text-align: center;
@@ -126,8 +126,8 @@ slightly adjusted speach bubble from "http://nicolasgallagher.com/pure-css-speec
   .quoteArea{
     width:25%;
     text-align: center;
-    /*margin-top: 104px;
-    margin-left: 85%;*/
+    /*margin-top: 104px;*/
+    margin-left: 85%;
   }
   .btn-lg, .btn-group-lg > .btn{
   font-size: 13px;
@@ -151,8 +151,8 @@ slightly adjusted speach bubble from "http://nicolasgallagher.com/pure-css-speec
   .quoteArea{
     width:25%;
     text-align: center;
-    /*margin-top: 104px;
-    margin-left: 75%;*/
+    /*margin-top: 104px;*/
+    margin-left: 75%;
   }
   .btn-lg, .btn-group-lg > .btn{
   font-size: 13px;
@@ -177,8 +177,8 @@ slightly adjusted speach bubble from "http://nicolasgallagher.com/pure-css-speec
   .quoteArea{
     width: 30%;
     text-align: center;
-    /*margin-top: 164px;
-    margin-left: 59%;*/
+    /*margin-top: 164px;*/
+    margin-left: 59%;
   }
   .btn-lg, .btn-group-lg > .btn{
   font-size: 13px;
