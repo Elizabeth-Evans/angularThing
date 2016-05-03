@@ -1,4 +1,6 @@
-
+body{
+  background-color: grey;
+}
 .jumbotron h1{
   font-size: 4rem;
 }
